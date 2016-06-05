@@ -1,15 +1,4 @@
-html
-  head
-    title Node js
-  body
-    // Este es un comentario
-    h1!= tata
-    - var arr = [1,2,3,4,4,5];
-    - for (var i = 0; i < arr.length; i++)
-      p=arr[i]
-    if true  
-      p.
-        este es un #[a(href="google.com") link] sencillo
-    each item in arr
-      p=item
-    
+extends ./layout.jade
+block contenido
+  h1 Hola mundo
+  a(href="/login") iniciar sesión

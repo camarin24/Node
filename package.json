@@ -1,24 +1,18 @@
 {
-  "name": "nodeexpress",
+  "name": "proyecto",
   "version": "1.0.0",
-  "description": "node y express",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "star": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camarin24/NodeAngularMongo.git"
-  },
-  "author": "Cristian Marin",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/camarin24/NodeAngularMongo/issues"
-  },
-  "homepage": "https://github.com/camarin24/NodeAngularMongo#readme",
   "dependencies": {
+    "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.20"
   }
 }
